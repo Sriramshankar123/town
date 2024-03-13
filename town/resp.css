@@ -1,0 +1,54 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(130deg, rgb(230, 175, 93), yellow);
+}
+
+input{
+    border: 1px solid;
+
+}
+
+
+#userForm{
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 10%;
+    position: sticky;
+    border: 3px solid ;
+    padding: 25px 25px 45px 14px;
+    width: 350px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, rgb(76, 224, 224),rgb(233, 233, 56));
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+#formIn{
+    margin-left: 40px;
+}
+button{
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 4px;
+    background: rgb(238, 238, 116);
+    font-weight: 700;
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(182, 182, 208);
+    transition: 0.3s;
+
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  margin-top: 55px;
+  margin-left: 35%;
+  padding: 8px;
+  border-collapse: collapse;
+
+}
+
